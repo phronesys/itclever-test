@@ -87,7 +87,7 @@ function onAddedItem() {
     @apply flex justify-between items-center mt-2 px-5 py-4;
 
     & > span {
-      @apply capitalize bg-pink-500/30 px-2 py-1.5 rounded-lg;
+      @apply capitalize bg-indigo-800/30 px-4 py-1 rounded-full whitespace-nowrap text-xs;
     }
   }
 

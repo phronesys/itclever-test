@@ -60,7 +60,7 @@ function openCartModal() {
     }
 
     & > span {
-      @apply bg-indigo-700/50 hover:bg-indigo-700 hover:text-white transition-colors ease-linear duration-100 cursor-pointer;
+      @apply bg-indigo-700/80 hover:bg-indigo-700 hover:scale-105 text-white transition-colors ease-linear duration-100 cursor-pointer;
       @apply min-w-max min-h-max rounded-full flex px-3 py-1 items-center text-lg lg:text-2xl;
 
       & > svg {
@@ -75,5 +75,4 @@ function openCartModal() {
     @apply flex w-full;
   }
 }
-
 </style>

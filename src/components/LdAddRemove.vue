@@ -57,7 +57,7 @@ const itemCount = computed(() => cart.value[id.value])
 
   &__placeholder {
     @apply bg-indigo-600 px-2 py-1 rounded transition hover:scale-105 ease-linear duration-200 cursor-pointer select-none;
-    @apply text-center min-w-max;
+    @apply text-center min-w-max text-xl;
   }
 }
 

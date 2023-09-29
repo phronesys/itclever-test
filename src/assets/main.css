@@ -8,3 +8,60 @@
     font-family: 'Raleway', sans-serif;
 }
 
+body {
+    background: linear-gradient(101deg, #333333, #130032);
+    background-size: 400% 400%;
+
+    -webkit-animation: BackgroundGradient 13s ease infinite;
+    -moz-animation: BackgroundGradient 13s ease infinite;
+    -o-animation: BackgroundGradient 13s ease infinite;
+    animation: BackgroundGradient 13s ease infinite;
+}
+
+@-webkit-keyframes BackgroundGradient {
+    0% {
+        background-position: 0% 10%
+    }
+    50% {
+        background-position: 100% 91%
+    }
+    100% {
+        background-position: 0% 10%
+    }
+}
+
+@-moz-keyframes BackgroundGradient {
+    0% {
+        background-position: 0% 10%
+    }
+    50% {
+        background-position: 100% 91%
+    }
+    100% {
+        background-position: 0% 10%
+    }
+}
+
+@-o-keyframes BackgroundGradient {
+    0% {
+        background-position: 0% 10%
+    }
+    50% {
+        background-position: 100% 91%
+    }
+    100% {
+        background-position: 0% 10%
+    }
+}
+
+@keyframes BackgroundGradient {
+    0% {
+        background-position: 0% 10%
+    }
+    50% {
+        background-position: 100% 91%
+    }
+    100% {
+        background-position: 0% 10%
+    }
+}
