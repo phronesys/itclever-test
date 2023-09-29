@@ -6,9 +6,9 @@ export {useCartStore} from './useCartStore';
 
 const pinia = createPinia();
 
-pinia.use(createPersistedState({
-  storage: sessionStorage,
-  auto: true
-}));
+// pinia.use(createPersistedState({
+//   storage: sessionStorage,
+//   auto: true
+// }));
 
 export default pinia;
