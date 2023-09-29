@@ -27,7 +27,7 @@ const props = defineProps({
 .alert-enter-from,
 .alert-leave-to {
   opacity: 0;
-  transform: translate(20%, -10%);
+  transform: translate(5%, -4%);
 }
 
 </style>
