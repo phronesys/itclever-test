@@ -54,12 +54,9 @@ function onAddedItem() {
   </div>
 
   <teleport to="body">
-    <transition name="alert">
-      <ld-alert :show="showAlert">
-        {{ product.title }}
-      </ld-alert>
-    </transition>
-
+    <ld-alert :show="showAlert">
+      {{ product.title }}
+    </ld-alert>
   </teleport>
 </template>
 
@@ -97,14 +94,4 @@ function onAddedItem() {
   }
 }
 
-.alert-enter-active,
-.alert-leave-active {
-  transition: all 0.2s ease;
-}
-
-.alert-enter-from,
-.alert-leave-to {
-  opacity: 0;
-  transform: translate(20%, -10%);
-}
 </style>

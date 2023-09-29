@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const props = defineProps({
+defineProps({
   show: Boolean
 })
 </script>
@@ -27,6 +27,7 @@ const props = defineProps({
 .alert-enter-from,
 .alert-leave-to {
   opacity: 0;
+  transform: translate(5%, -4%);
 }
 
 
