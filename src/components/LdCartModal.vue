@@ -11,7 +11,7 @@ const {modalCart, productsInCart, totalPriceCart} = storeToRefs(useCartStore());
     <dialog class="modal ld-cart-modal" :class="{'modal-open': modalCart }">
       <div class="modal-box">
         <header>
-          <h4>Carrito</h4>
+          <h4>Cart</h4>
           <button class="btn" @click="modalCart = false">Close</button>
         </header>
 
@@ -26,7 +26,7 @@ const {modalCart, productsInCart, totalPriceCart} = storeToRefs(useCartStore());
           </div>
         </div>
         <div v-else>
-          No hay nada en el carrito :(
+          There is nothing in the cart :(
         </div>
 
 

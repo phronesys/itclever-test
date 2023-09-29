@@ -22,7 +22,7 @@ function openCartModal() {
       </h1>
 
       <span @click="openCartModal">
-        Carrito
+        Cart
         <Icon icon="mdi-light:cart"></Icon>
       </span>
     </header>
