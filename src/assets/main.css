@@ -12,10 +12,10 @@ body {
     background: linear-gradient(101deg, #333333, #130032);
     background-size: 400% 400%;
 
-    -webkit-animation: BackgroundGradient 13s ease infinite;
-    -moz-animation: BackgroundGradient 13s ease infinite;
-    -o-animation: BackgroundGradient 13s ease infinite;
-    animation: BackgroundGradient 13s ease infinite;
+    -webkit-animation: BackgroundGradient 45s ease infinite;
+    -moz-animation: BackgroundGradient 45s ease infinite;
+    -o-animation: BackgroundGradient 45s ease infinite;
+    animation: BackgroundGradient 45s ease infinite;
 }
 
 @-webkit-keyframes BackgroundGradient {
