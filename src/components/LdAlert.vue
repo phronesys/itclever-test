@@ -15,7 +15,7 @@ const props = defineProps({
 
 <style scoped lang="postcss">
 .ld-alert {
-  @apply fixed top-16 right-16 p-4 max-w-[300px];
+  @apply fixed top-4 right-4 lg:top-16 lg:right-16 p-4 max-w-[300px];
   @apply bg-indigo-600 text-white font-bold;
 }
 
@@ -27,7 +27,8 @@ const props = defineProps({
 .alert-enter-from,
 .alert-leave-to {
   opacity: 0;
-  transform: translate(5%, -4%);
 }
+
+
 
 </style>
