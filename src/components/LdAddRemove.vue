@@ -62,7 +62,8 @@ const itemCount = computed(() => cart.value[id.value])
 }
 
 .ld-add-remove.desktop {
-  @apply lg:max-w-[200px];
+  @apply lg:max-w-max min-w-[150px] flex justify-between items-center;
+
   & > span {
     @apply lg:text-2xl;
   }
