@@ -18,7 +18,6 @@ function openCartModal() {
       <h1>
         <RouterLink to='/'>
           The Storeroom
-          <Icon icon="gala:search"></Icon>
         </RouterLink>
       </h1>
 
@@ -53,7 +52,7 @@ function openCartModal() {
     @apply bg-gray-700/30 rounded-full;
 
     & > h1 {
-      @apply text-2xl lg:text-4xl font-semibold;
+      @apply text-xl lg:text-4xl font-semibold;
 
       & > a {
         @apply flex items-center gap-4;

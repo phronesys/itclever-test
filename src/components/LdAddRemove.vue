@@ -53,9 +53,7 @@ const itemCount = computed(() => cart.value[id.value])
     }
   }
 
-  & > span {
-    @apply text-2xl;
-  }
+
 
   &__placeholder {
     @apply bg-indigo-600 px-2 py-1 rounded transition hover:scale-105 ease-linear duration-200 cursor-pointer select-none;
@@ -64,11 +62,13 @@ const itemCount = computed(() => cart.value[id.value])
 }
 
 .ld-add-remove.desktop {
-  @apply max-w-[200px];
-
+  @apply lg:max-w-[200px];
+  & > span {
+    @apply lg:text-2xl;
+  }
   & > button {
     & > svg {
-      @apply w-8 h-8;
+      @apply lg:w-8 lg:h-8;
     }
   }
 }
